@@ -1,0 +1,473 @@
+﻿[2015.07.08-18.04.29:665][  0]Log file open, 07/08/15 20:04:29
+[2015.07.08-18.04.29:665][  0]LogInit:Display: Running engine for game: MagiCombatArena
+[2015.07.08-18.04.29:665][  0]LogInit:Display: RandInit(-959728907) SRandInit(-959728903).
+[2015.07.08-18.04.29:665][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2015.07.08-18.04.29:665][  0]LogStats: Stats thread started
+[2015.07.08-18.04.29:665][  0]LogInit: Version: 4.8.1-0+++depot+UE4-Releases+4.8
+[2015.07.08-18.04.29:665][  0]LogInit: API Version: 0
+[2015.07.08-18.04.29:665][  0]LogInit: Compiled (64-bit): Jul  2 2015 18:24:44
+[2015.07.08-18.04.29:665][  0]LogInit: Compiled with Clang: 3.5.0 (tags/RELEASE_350/final)
+[2015.07.08-18.04.29:665][  0]LogInit: Build Configuration: Development
+[2015.07.08-18.04.29:665][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.07.08-18.04.29:665][  0]LogInit: Command line:  /Temp/Autosaves/Game/TopDownBP/Maps/UEDPCTopDownExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720 -Multiprocess -opengl -featureleveles2 -faketouches
+[2015.07.08-18.04.29:665][  0]LogInit: Base directory: /home/pawel/UnrealEngine/Engine/Binaries/Linux/
+[2015.07.08-18.04.29:665][  0]LogInit: Rocket: 0
+[2015.07.08-18.04.29:676][  0]LogInit: Using libcurl 7.38.0
+[2015.07.08-18.04.29:676][  0]LogInit:  - built for x86_64-unknown-linux-gnu
+[2015.07.08-18.04.29:676][  0]LogInit:  - supports SSL with OpenSSL/1.0.1i
+[2015.07.08-18.04.29:676][  0]LogInit:  - supports HTTP deflate (compression) using libz 1.2.5
+[2015.07.08-18.04.29:676][  0]LogInit:  - other features:
+[2015.07.08-18.04.29:676][  0]LogInit:      CURL_VERSION_SSL
+[2015.07.08-18.04.29:676][  0]LogInit:      CURL_VERSION_LIBZ
+[2015.07.08-18.04.29:676][  0]LogInit:      CURL_VERSION_IPV6
+[2015.07.08-18.04.29:676][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.07.08-18.04.29:676][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.07.08-18.04.29:676][  0]LogInit:      CURL_VERSION_TLSAUTH_SRP
+[2015.07.08-18.04.29:676][  0]LogInit:  Libcurl: checking if '/etc/pki/tls/certs/ca-bundle.crt' exists
+[2015.07.08-18.04.29:676][  0]LogInit:  Libcurl: checking if '/etc/ssl/certs/ca-certificates.crt' exists
+[2015.07.08-18.04.29:676][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.07.08-18.04.29:676][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.07.08-18.04.29:676][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.07.08-18.04.29:676][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.07.08-18.04.29:676][  0]LogInit:  - CertBundlePath = /etc/ssl/certs/ca-certificates.crt  - Libcurl will set CURLOPT_CAINFO to it
+[2015.07.08-18.04.29:679][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.07.08-18.04.29:808][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.07.08-18.04.29:816][  0]LogInit: Object subsystem initialized
+[2015.07.08-18.04.29:817][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.07.08-18.04.29:817][  0]LogConsoleResponse:Warning:   Found in ini file '/home/pawel/Dokumenty/Unreal Projects/MagiCombatArena/Saved/Config/Linux/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.08-18.04.29:817][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.07.08-18.04.29:817][  0]LogConsoleResponse:Warning:   Found in ini file '/home/pawel/Dokumenty/Unreal Projects/MagiCombatArena/Saved/Config/Linux/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.08-18.04.29:817][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.07.08-18.04.29:817][  0]LogConsoleResponse:Warning:   Found in ini file '/home/pawel/Dokumenty/Unreal Projects/MagiCombatArena/Saved/Config/Linux/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.07.08-18.04.29:817][  0]LogInit: Selected Device Profile: [Linux]
+[2015.07.08-18.04.29:817][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Linux]
+[2015.07.08-18.04.29:825][  0]LogInit: Linux hardware info:
+[2015.07.08-18.04.29:825][  0]LogInit:  - this process' id (pid) is 4922, parent process' id (ppid) is 4727
+[2015.07.08-18.04.29:825][  0]LogInit:  - we are not running under debugger
+[2015.07.08-18.04.29:825][  0]LogInit:  - machine network name is 'pawel-MS-7816'
+[2015.07.08-18.04.29:825][  0]LogInit:  - we're logged in locally
+[2015.07.08-18.04.29:825][  0]LogInit:  - Number of physical cores available for the process: 4
+[2015.07.08-18.04.29:825][  0]LogInit:  - Number of logical cores available for the process: 4
+[2015.07.08-18.04.29:825][  0]LogInit:  - Memory allocator used: binned
+[2015.07.08-18.04.29:825][  0]LogInit: Linux-specific commandline switches:
+[2015.07.08-18.04.29:825][  0]LogInit:  -nodwarf (currently OFF): suppress parsing of DWARF debug info (callstacks will be generated faster, but won't have line numbers)
+[2015.07.08-18.04.29:825][  0]LogInit:  -ansimalloc - use malloc()/free() from libc (useful for tools like valgrind and electric fence)
+[2015.07.08-18.04.29:825][  0]LogInit:  -jemalloc - use jemalloc for all memory allocation
+[2015.07.08-18.04.29:825][  0]LogInit:  -binnedmalloc - use binned malloc  for all memory allocation
+[2015.07.08-18.04.29:825][  0]LogInit:  -httpproxy=ADDRESS:PORT - redirects HTTP requests to a proxy (only supported if compiled with libcurl)
+[2015.07.08-18.04.29:825][  0]LogInit:  -reuseconn - allow libcurl to reuse HTTP connections (only matters if compiled with libcurl)
+[2015.07.08-18.04.29:825][  0]LogInit:  -virtmemkb=NUMBER - sets process virtual memory (address space) limit (overrides VirtualMemoryLimitInKB value from .ini)
+[2015.07.08-18.04.29:825][  0]LogInit: Setting LC_NUMERIC to en_US
+[2015.07.08-18.04.29:825][  0]LogInit: Initializing SDL.
+[2015.07.08-18.04.31:591][  0]LogInit: Display metrics:
+[2015.07.08-18.04.31:591][  0]LogInit:   PrimaryDisplayWidth: 1920
+[2015.07.08-18.04.31:591][  0]LogInit:   PrimaryDisplayHeight: 1080
+[2015.07.08-18.04.31:591][  0]LogInit:   PrimaryDisplayWorkAreaRect:
+[2015.07.08-18.04.31:591][  0]LogInit:     Left=65, Top=24, Right=1920, Bottom=1080
+[2015.07.08-18.04.31:591][  0]LogInit:   VirtualDisplayRect:
+[2015.07.08-18.04.31:591][  0]LogInit:     Left=65, Top=24, Right=1920, Bottom=1080
+[2015.07.08-18.04.31:591][  0]LogInit:   TitleSafePaddingSize: X=0.000 Y=0.000
+[2015.07.08-18.04.31:591][  0]LogInit:   ActionSafePaddingSize: X=0.000 Y=0.000
+[2015.07.08-18.04.31:591][  0]LogInit:   Number of monitors: 1
+[2015.07.08-18.04.31:591][  0]LogInit:     Monitor 0
+[2015.07.08-18.04.31:591][  0]LogInit:       Name: Philips 247E4 24"
+[2015.07.08-18.04.31:591][  0]LogInit:       ID: display0
+[2015.07.08-18.04.31:591][  0]LogInit:       NativeWidth: 1920
+[2015.07.08-18.04.31:591][  0]LogInit:       NativeHeight: 1080
+[2015.07.08-18.04.31:591][  0]LogInit:       bIsPrimary: true
+[2015.07.08-18.04.31:591][  0]LogInit:  - Physical RAM available (not considering process quota): 16 GB (15977 MB, 16360756 KB, 16753414144 bytes)
+[2015.07.08-18.04.31:594][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.07.08-18.04.31:746][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (/home/pawel/UnrealEngine/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (/home/pawel/UnrealEngine/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.07.08-18.04.32:361][  0]LogRHI:Warning: disabling reporting back of debug groups and markers to the OpenGL debug output callback
+[2015.07.08-18.04.32:590][  0]LogRHI:Warning: disabling reporting back of debug groups and markers to the OpenGL debug output callback
+[2015.07.08-18.04.32:593][  0]LogRHI: Initializing OpenGL RHI
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_VENDOR: NVIDIA Corporation
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_RENDERER: GK104/PCIe/SSE2
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_VERSION: 3.2.0 NVIDIA 304.125
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_SHADING_LANGUAGE_VERSION: 1.50 NVIDIA via Cg compiler
+[2015.07.08-18.04.32:593][  0]LogRHI: OpenGL Extensions:
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_AMD_multi_draw_indirect
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_AMD_seamless_cubemap_per_texture
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_base_instance
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_blend_func_extended
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_color_buffer_float
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_compressed_texture_pixel_storage
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_conservative_depth
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_copy_buffer
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_depth_buffer_float
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_depth_clamp
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_depth_texture
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_draw_buffers
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_draw_buffers_blend
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_draw_indirect
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_draw_elements_base_vertex
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_draw_instanced
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_ES2_compatibility
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_explicit_attrib_location
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_fragment_coord_conventions
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_fragment_program
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_fragment_program_shadow
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_fragment_shader
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_framebuffer_object
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_framebuffer_sRGB
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_geometry_shader4
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_get_program_binary
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_gpu_shader5
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_gpu_shader_fp64
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_half_float_pixel
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_half_float_vertex
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_imaging
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_instanced_arrays
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_internalformat_query
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_map_buffer_alignment
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_map_buffer_range
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_multisample
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_multitexture
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_occlusion_query
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_occlusion_query2
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_pixel_buffer_object
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_point_parameters
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_point_sprite
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_provoking_vertex
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_robustness
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_sample_shading
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_sampler_objects
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_seamless_cube_map
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_separate_shader_objects
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_atomic_counters
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_bit_encoding
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_image_load_store
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_objects
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_precision
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_subroutine
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shader_texture_lod
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shading_language_100
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shading_language_420pack
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shading_language_include
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shading_language_packing
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_shadow
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_sync
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_tessellation_shader
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_border_clamp
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_buffer_object
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_buffer_object_rgb32
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_compression
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_compression_bptc
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_compression_rgtc
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_cube_map
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_cube_map_array
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_env_add
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_env_combine
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_env_crossbar
+[2015.07.08-18.04.32:593][  0]LogRHI:   GL_ARB_texture_env_dot3
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_float
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_gather
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_mirrored_repeat
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_multisample
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_non_power_of_two
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_query_lod
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_rectangle
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_rg
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_rgb10_a2ui
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_storage
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_texture_swizzle
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_timer_query
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_transform_feedback2
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_transform_feedback3
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_transform_feedback_instanced
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_transpose_matrix
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_uniform_buffer_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_array_bgra
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_array_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_attrib_64bit
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_buffer_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_program
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_shader
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_vertex_type_2_10_10_10_rev
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_viewport_array
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ARB_window_pos
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ATI_draw_buffers
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ATI_texture_float
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_ATI_texture_mirror_once
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_S3_s3tc
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_env_add
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_abgr
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_bgra
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_bindable_uniform
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_blend_color
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_blend_equation_separate
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_blend_func_separate
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_blend_minmax
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_blend_subtract
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_compiled_vertex_array
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_Cg_shader
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_depth_bounds_test
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_direct_state_access
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_draw_buffers2
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_draw_instanced
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_draw_range_elements
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_fog_coord
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_framebuffer_blit
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_framebuffer_multisample
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXTX_framebuffer_mixed_formats
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_framebuffer_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_framebuffer_sRGB
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_geometry_shader4
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_gpu_program_parameters
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_gpu_shader4
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_multi_draw_arrays
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_packed_depth_stencil
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_packed_float
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_packed_pixels
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_pixel_buffer_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_point_parameters
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_provoking_vertex
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_rescale_normal
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_secondary_color
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_separate_shader_objects
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_separate_specular_color
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_shader_image_load_store
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_shadow_funcs
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_stencil_two_side
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_stencil_wrap
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture3D
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_array
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_buffer_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_compression_dxt1
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_compression_latc
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_compression_rgtc
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_compression_s3tc
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_cube_map
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_edge_clamp
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_env_combine
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_env_dot3
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_filter_anisotropic
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_format_BGRA8888
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_integer
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_lod
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_lod_bias
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_mirror_clamp
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_shared_exponent
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_sRGB
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_sRGB_decode
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_storage
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_swizzle
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_texture_type_2_10_10_10_REV
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_timer_query
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_transform_feedback2
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_vertex_array
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_vertex_array_bgra
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_vertex_attrib_64bit
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_x11_sync_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_EXT_import_sync_object
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_IBM_rasterpos_clip
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_IBM_texture_mirrored_repeat
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_KTX_buffer_region
+[2015.07.08-18.04.32:594][  0]LogRHI:   GL_NV_alpha_test
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_bindless_texture
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_blend_minmax
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_blend_square
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_complex_primitives
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_conditional_render
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_copy_depth_to_color
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_copy_image
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_depth_buffer_float
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_depth_clamp
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_ES1_1_compatibility
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_explicit_multisample
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fbo_color_attachments
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fence
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_float_buffer
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fog_distance
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fragdepth
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fragment_program
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fragment_program_option
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_fragment_program2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_framebuffer_multisample_coverage
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_geometry_shader4
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_gpu_program4
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_gpu_program4_1
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_gpu_program5
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_gpu_program_fp64
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_gpu_shader5
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_half_float
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_light_max_exponent
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_multisample_coverage
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_multisample_filter_hint
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_occlusion_query
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_packed_depth_stencil
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_parameter_buffer_object
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_parameter_buffer_object2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_path_rendering
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_pixel_data_range
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_point_sprite
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_primitive_restart
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_register_combiners
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_register_combiners2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_shader_atomic_counters
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_shader_atomic_float
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_shader_buffer_load
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texgen_reflection
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_barrier
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_compression_vtc
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_env_combine4
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_expand_normal
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_lod_clamp
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_multisample
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_rectangle
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_shader
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_shader2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_texture_shader3
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_transform_feedback
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_transform_feedback2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vdpau_interop
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_array_range
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_array_range2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_attrib_integer_64bit
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_buffer_unified_memory
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_program
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_program1_1
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_program2
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_program2_option
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NV_vertex_program3
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NVX_conditional_render
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_NVX_gpu_memory_info
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_compressed_paletted_texture
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_depth24
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_depth32
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_depth_texture
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_element_index_uint
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_fbo_render_mipmap
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_get_program_binary
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_mapbuffer
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_packed_depth_stencil
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_point_size_array
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_point_sprite
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_rgb8_rgba8
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_read_format
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_standard_derivatives
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_texture_3D
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_texture_float
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_texture_float_linear
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_texture_half_float
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_texture_half_float_linear
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_texture_npot
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_vertex_array_object
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_OES_vertex_half_float
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_SGIS_generate_mipmap
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_SGIS_texture_lod
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_SGIX_depth_texture
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_SGIX_shadow
+[2015.07.08-18.04.32:595][  0]LogRHI:   GL_SUN_slice_accum
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_TEXTURE_SIZE: 16384
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_CUBE_MAP_TEXTURE_SIZE: 16384
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_ARRAY_TEXTURE_LAYERS: 2048
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_3D_TEXTURE_SIZE: 2048
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_RENDERBUFFER_SIZE: 16384
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_TEXTURE_IMAGE_UNITS: 32
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_DRAW_BUFFERS: 8
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_COLOR_ATTACHMENTS: 8
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_SAMPLES: 32
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_COLOR_TEXTURE_SAMPLES: 32
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_DEPTH_TEXTURE_SAMPLES: 32
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_INTEGER_SAMPLES: 1
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 160
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_VERTEX_ATTRIBS: 16
+[2015.07.08-18.04.32:644][  0]LogRHI:   GL_MAX_TEXTURE_MAX_ANISOTROPY_EXT: 16
+[2015.07.08-18.04.32:644][  0]LogRHI: OpenGL MajorVersion = 3, MinorVersion = 2, ShaderPlatform = GLSL_150_ES2, FeatureLevel = ES2
+[2015.07.08-18.04.32:646][  0]LogRHI: Texture pool is 1433 MB (70% of 2048 MB)
+[2015.07.08-18.04.32:647][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.07.08-18.04.33:595][  0]LogHAL: FLinuxPlatformProcess::CreateProc: spawned child 4937
+[2015.07.08-18.04.34:397][  0]LogHAL: Child 4937 is no more running (zombie), Wait()ing immediately.
+[2015.07.08-18.04.34:397][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.07.08-18.04.34:940][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.07.08-18.04.35:191][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.07.08-18.04.35:473][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.07.08-18.04.35:474][  0]LogTargetPlatformManager:Display: Building Assets For Linux
+[2015.07.08-18.04.36:040][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.07.08-18.04.36:085][  0]LogDerivedDataCache: Loaded boot cache 0.04s 86MB ../../../../Dokumenty/Unreal Projects/MagiCombatArena/DerivedDataCache/Boot.ddc.
+[2015.07.08-18.04.36:085][  0]LogDerivedDataCache:Display: Loaded Boot cache: ../../../../Dokumenty/Unreal Projects/MagiCombatArena/DerivedDataCache/Boot.ddc
+[2015.07.08-18.04.36:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Dokumenty/Unreal Projects/MagiCombatArena/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.08-18.04.36:085][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.07.08-18.04.36:085][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnginePak pak cache file ../../../Engine/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.07.08-18.04.36:085][  0]LogDerivedDataCache: Unable to find inner node EnginePak for hierarchical cache Hierarchy.
+[2015.07.08-18.04.36:090][  0]LogDerivedDataCache: Using Local data cache path ../../../Engine/DerivedDataCache: Writable
+[2015.07.08-18.04.36:090][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2015.07.08-18.04.36:090][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2015.07.08-18.04.42:965][  0]LogHAL: Changed child's priority (nice value) to 10 (change from 0)
+[2015.07.08-18.04.42:965][  0]LogHAL: Changed child's priority (nice value) to 10 (change from 0)
+[2015.07.08-18.04.42:965][  0]LogHAL: Changed child's priority (nice value) to 10 (change from 0)
+[2015.07.08-18.07.33:487][  0]LogHAL: Linux SourceCodeAccessSettings: NullSourceCodeAccessor
+[2015.07.08-18.07.33:494][  0]LogInit: Selected Device Profile: [Linux]
+[2015.07.08-18.07.33:528][  0]LogMaterial: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2015.07.08-18.12.32:739][  0]LogMaterial: Missing cached shader map for material DefaultDeferredDecalMaterial, compiling. 
+[2015.07.08-18.12.36:924][  0]LogMaterial: Missing cached shader map for material DefaultLightFunctionMaterial, compiling. 
+[2015.07.08-18.12.39:511][  0]LogMaterial: Missing cached shader map for material DefaultPostProcessMaterial, compiling. 
+[2015.07.08-18.12.45:085][  0]LogMaterial: Missing cached shader map for material LandscapeGizmo_Mat, compiling. 
+[2015.07.08-18.12.45:092][  0]LogMaterial: Missing cached shader map for material LandscapeGizmoHeight_Mat, compiling. 
+[2015.07.08-18.12.45:586][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.07.08-18.12.45:586][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.07.08-18.12.45:591][  0]LogMaterial: Missing cached shader map for material SplineEditorMeshMat, compiling. 
+[2015.07.08-18.12.45:604][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.08-18.12.45:608][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.07.08-18.12.46:027][  0]LogMaterial: Missing cached shader map for material SkySphereMaterial, compiling. 
+[2015.07.08-18.12.46:048][  0]LogMaterial: Missing cached shader map for material FloorPlaneMaterial, compiling. 
+[2015.07.08-18.12.46:118][  0]LogMaterial: Missing cached shader map for material MatineeCam_mat, compiling. 
+[2015.07.08-18.12.46:172][  0]LogMaterial: Missing cached shader map for material HelpActorMaterial, compiling. 
+[2015.07.08-18.12.46:520][  0]LogMaterial: Missing cached shader map for material DefaultTextMaterialOpaque, compiling. 
+[2015.07.08-18.12.46:575][  0]LogMaterial: Missing cached shader map for material DefaultMaterial, compiling. 
+[2015.07.08-18.12.46:618][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.08-18.12.46:621][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.08-18.12.46:628][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.08-18.12.46:631][  0]LogMaterial: Missing cached shader map for material Widget3DPassThrough, compiling. 
+[2015.07.08-18.12.52:509][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.07.08-18.12.52:512][  0]LogMaterial: Missing cached shader map for material DefaultSpriteMaterial, compiling. 
+[2015.07.08-18.12.53:095][  0]SourceControl: Info Source control is disabled
+[2015.07.08-18.12.53:096][  0]SourceControl: Info Source control is disabled
+[2015.07.08-18.12.53:372][  0]SourceControl: Info Source control is disabled
+[2015.07.08-18.12.53:615][  0]LogDesktopPlatform: LinuxNativeDialogs have been successfully initialized.
+[2015.07.08-18.12.54:206][  0]LogObj: 27365 objects as part of root set at end of initial load.
+[2015.07.08-18.12.54:206][  0]LogUObjectAllocator: 5448888 out of 0 bytes used by permanent object pool.
+[2015.07.08-18.12.54:206][  0]LogExit: Preparing to exit.
+[2015.07.08-18.12.54:396][  0]LogExit: Object subsystem successfully closed.
+[2015.07.08-18.12.54:401][  0]LogHAL:Warning: Process (pid=4955) is still running - we will reap it in a waiter thread, but the thread handle is going to be leaked.
+[2015.07.08-18.12.54:401][  0]LogHAL:Warning: Process (pid=4956) is still running - we will reap it in a waiter thread, but the thread handle is going to be leaked.
+[2015.07.08-18.12.54:401][  0]LogHAL:Warning: Process (pid=4957) is still running - we will reap it in a waiter thread, but the thread handle is going to be leaked.
+[2015.07.08-18.12.54:477][  0]LogExit: Preparing to exit.
+[2015.07.08-18.12.54:627][  0]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (71)
+[2015.07.08-18.12.54:627][  0]LogModuleManager: Shutting down and abandoning module CableComponent (70)
+[2015.07.08-18.12.54:627][  0]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (69)
+[2015.07.08-18.12.54:627][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (68)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module KDevelopSourceCodeAccess (67)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module BlankPlugin (66)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (65)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module UObjectPlugin (64)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module SourceControl (63)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (62)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module SlateRemote (61)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module UdpMessaging (60)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module Paper2D (59)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module NullSourceCodeAccess (58)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (57)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module PropertyEditor (56)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (55)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module FunctionalTesting (54)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (53)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (52)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module MessageLog (51)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module Sequencer (50)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module AssetTools (49)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module UMGEditor (48)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module UMG (47)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module Slate (46)
+[2015.07.08-18.12.54:628][  0]LogModuleManager: Shutting down and abandoning module EditorStyle (45)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module SessionServices (44)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module Messaging (43)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (42)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (41)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module ALAudio (40)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module Networking (38)
+[2015.07.08-18.12.54:629][  0]LogModuleManager: Shutting down and abandoning module Core (37)
